@@ -1,0 +1,250 @@
+html{
+    margin: 0;
+    background-color: #f8f8f8 !important;
+    font-family: 'PT Sans', sans-serif !important;
+}
+
+h1{
+    font-family: 'PT Sans', sans-serif !important;
+    color: #00adba;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.navbar {
+    background: #f8f8f8;
+    height: 80px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar>.container{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+img.logo{
+    width: 6rem;
+}
+
+section#hero{
+    padding: 0 3rem 0 3rem;
+    height: 100vh;
+    margin-top: 80px;
+    background-color: #fff197;
+    background-image: url('../img/shapes-mobile.png') !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero>.container{
+    margin-top: 50px;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img.girl{
+    width: 300px;
+    margin-left: 3.5rem;
+}
+
+#form>.form-container{
+    flex-direction: column;
+}
+
+.container>.blue-form-container{
+    width: 450px;
+    height: 90px;
+    background-color: #00adba;
+    border-radius: 1rem 1rem 0 0;
+    padding: .7rem 2rem .5rem 2rem;
+}
+#form-title>p{
+    color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.yellow-form-container{
+    width: 450px;
+    height: auto;
+    background-color: #ffe11e;
+    border-radius: 0 0 1rem 1rem;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+}
+
+
+.field-container>.control{
+    margin: 15px 0 15px 0;
+}
+
+.field-container>.control>input{
+    font-family: 'PT Sans', sans-serif !important;
+    color: #b7b7b7;
+    text-transform: uppercase;
+    /* background-color: rgba(208, 205, 185, .65); */
+    opacity: .85;
+    border-radius: 12px;
+}
+.control.has-icons-left .icon{
+    color: #00adba;
+}
+
+.checkbox{
+    font-size: .8rem;
+    margin: .5rem 0 .2rem 0;
+}
+a{
+    color: #00adba !important;
+}
+a:hover{
+    color: #015f66 !important;
+}
+
+.button-field{
+    justify-content: center;
+    margin: 1.5rem 0 1.2rem 0;
+}
+
+.button{
+    border-radius: 12px;
+}
+
+.button.is-white{
+    color: #00adba;
+    font-weight: 700;
+    padding: 0 1.8rem 0 1.8rem;
+}
+
+section#info{
+    padding: 2.5rem 4rem 2.5rem 4rem;
+    height: auto;
+    background-color: #ffdd00;
+}
+
+.info>.container{
+    flex-direction: column;
+}
+
+.items{
+    padding: 0 1.5rem;
+    margin: 30px 0 30px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.items>span{
+    margin-bottom: 10px;
+}
+
+img.no1{
+    width: 130px;
+}
+img.hands{
+    width: 130px;
+}
+img.money{
+    width: 100px;
+}
+
+section#text{
+    padding: 2rem 4rem 2rem 4rem;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#text>.container{
+    flex-direction: column;
+}
+
+.text-info{
+    text-align: center;
+    color: #5e5e5e;
+    padding: 1.5rem;
+}
+
+hr {
+    background-color: #dedede;
+    border: none;
+    display: block;
+    height: 1px;
+    margin: 1.5rem 0;
+}
+
+#footer{
+    padding: 2rem 4rem 2rem 4rem;
+}
+
+#footer>.container{
+    justify-content: center;
+    align-items: center;
+}
+
+img.flags{
+    margin-bottom: 25px;
+}
+
+
+@media (min-width: 995px){
+
+section#hero{
+    background-image: url('../img/shapes.png') !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+    
+section#hero{
+    flex-direction: row;
+    padding: 0;
+}
+
+img.girl{
+    width: 420px;
+    margin-bottom: 50px;
+}
+
+.yellow-form-container{
+    margin-bottom: 50px;
+}
+
+#form>.form-container{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info>.container{
+    flex-direction: row;
+}
+
+img.no1,
+img.hands{
+    width: 125px;
+}
+.img.money{
+    width: 110px;
+}
+
+img.no1{
+    
+}
+img.hands{
+    margin-bottom: 12px;
+}
+
+#text>.container{
+    flex-direction: row;
+}
+
+section#text{
+    height: 55vh;
+}
+
+
+}
